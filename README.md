@@ -39,6 +39,11 @@ To use a unit of an item, such as weight or volume, add a `%` between the quanti
 ```
 Place @bacon strips{1%kg} on a baking sheet and glaze with @syrup{1/2%tbsp}.
 ```
+To indicate the preparation of an item, such as "finely diced" or "minced", place the preparation inside `<>` after the name or quantity.
+
+```
+Add @yellow onion{1%small}<finely diced> to the baking sheet with bacon and syrup..
+```
 
 ### Comments
 You can add comments up to the end of the line to Cooklang text with `--`.
